@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hitlesh Kumar - Portfolio</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      /* background-image: url('hkpr.jpeg'); */
+      /* background-size: cover; */
+      /* background-position: center; */
+      background-color: #f0f0f0; /* Initial background color */
+      transition: background-color 0.5s ease; /* Smooth background color transition */
+    }
+
+    header {
+      background-color: #0f584f;
+      color: #f0f0f0;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    nav {
+      background-color: #0f584f;
+      color:  #f0f0f0;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color:  #f0f0f0;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00eeff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    section {
+      padding: 40px 0;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    section.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    footer {
+      background-color: #0f584f;
+      color:  #f0f0f0;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    footer p {
+      margin-bottom: 10px;
+    }
+
+    /* Skills section */
+    .skills {
+      margin-top: 20px;
+    }
+
+    .skills h3 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .skills ul {
+      list-style-type: none;
+    }
+
+    .skills li {
+      margin-bottom: 5px;
+    }
+
+    /* Slider */
+    .slider {
+      max-width: 100%;
+      height: auto;
+      color: aqua;
+    }
+
+    /* Form validation */
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .form-group input[type="submit"] {
+      background-color: #08ee8e;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .form-group input[type="submit"]:hover {
+      background-color: #444;
+    }
+
+    .error {
+      color: red;
+      font-style: italic;
+    }
+
+    /* Image gallery */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .gallery-item {
+      flex: 0 0 calc(33.33% - 20px);
+      margin: 10px;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Hitlesh Kumar</h1>
+      <p>Front-End Web Developer</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#work-experience">Work Experience</a></li>
+      <li><a href="#languages">Languages</a></li>
+    </ul>
+  </nav>
+
+  <section id="profile" class="container">
+    <div class="container">
+      <h2>Profile</h2>
+      <p>Passionate and ambitious entry-level web developer. Recently graduated with a bachelor's of arts. Currently pursuing a Software engineering program at Navgurukul Dantewada campus and have completed several projects using some basics of HTML, CSS, and JavaScript. Seeking an opportunity to gain hands-on experience and grow in a dynamic and collaborative environment.</p>
+    </div>
+  </section>
+
+  <section id="education" class="container">
+    <div class="container">
+      <h2>Education</h2>
+      <p>2020-2023: Bachelor’s</p>
+      <p>2016-2019: Diploma in electrical</p>
+      <p>2014-2016: ITI</p>
+      <p>2012-2013: 12th</p>
+
+    </div>
+    <div class="container skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>Programming</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="container">
+    <div class="container">
+      <h2>Projects</h2>
+      <!-- Add your project details here -->
+    </div>
+  </section>
+
+  <section id="work-experience" class="container">
+    <div class="container">
+      <h2>Work Experience</h2>
+      <p>2023-2024: Head of the Committee</p>
+      <p>Lead 80 people at Navgurukul</p>
+      <p>2021-2022: Sales</p>
+      <p>NEXA (Maruti Suzuki)</p>
+      <p>2020-2021: Sales</p>
+      <p>Tata Motors</p>
+    </div>
+  </section>
+
+  <section id="languages" class="container">
+    <div class="container">
+      <h2>Languages</h2>
+      <p>Hindi (Native)</p>
+      <p>English (Intermediate)</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Contact:</p>
+      <p>Email: hitlesh13@gmail.com</p>
+      <p>Phone: +91 9584525267</p>
+    </div>
+  </footer>
+
+  <script>
+    // JavaScript code
+    document.addEventListener("DOMContentLoaded", function() {
+      var sections = document.querySelectorAll("section");
+
+      window.addEventListener("scroll", function() {
+        sections.forEach(function(section) {
+          if (isElementInViewport(section)) {
+            section.classList.add("active");
+          }
+        });
+      });
+
+      function isElementInViewport(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+        );
+      }
+    });
+
+    // Smooth scrolling for navigation links
+    document.addEventListener("DOMContentLoaded", function() {
+      const navLinks = document.querySelectorAll('nav ul li a');
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          const targetId = this.getAttribute('href').substring(1);
+          const targetSection = document.getElementById(targetId);
+          
+          if (targetSection) {
+            window.scrollTo({
+              top: targetSection.offsetTop,
+              behavior: 'smooth' // Smooth scrolling behavior
+            });
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
